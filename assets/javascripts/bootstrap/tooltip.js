@@ -228,6 +228,7 @@
 
       var calculatedOffset = this.getCalculatedOffset(placement, pos, actualWidth, actualHeight)
 
+      debugger;
       this.applyPlacement(calculatedOffset, placement)
 
       var complete = function () {
